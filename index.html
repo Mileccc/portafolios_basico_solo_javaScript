@@ -1,32 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <title>Portafolio Javi</title>
-    <link rel="stylesheet" href="estilo.css">
-</head>
-<body>
+    <link rel="stylesheet" href="estilo.css" />
+  </head>
+  <body>
     <div class="inicio contenedor" id="inicio">
-        <h3>Hola, soy</h3>
-        <h1>Javier Vázquez</h1>
-        <p>Desarrollador FullStack</p>
-        <div class="contenedor-botones">
-            <button class="btn">Download CV</button>
-            <button class="btn btn2">Hablemos</button>
-        </div>
+      <h3>Hola, soy</h3>
+      <h1>Javier Vázquez</h1>
+      <p>Desarrollador FullStack</p>
+      <div class="contenedor-botones">
+        <button class="btn">Download CV</button>
+        <button class="btn btn2">Hablemos</button>
+      </div>
 
-        <div class="contenedor-img">
-            <img src="./img/cuerpoTranspariencia.png" alt="">
-        </div>
+      <div class="contenedor-img">
+        <img src="./img/cuerpoTranspariencia.png" alt="" />
+      </div>
 
-        <div class="contenedor-redes">
-            <a href="#"><i class="fa-brands fa-github"></i></a>
-            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-        </div>
-
+      <div class="contenedor-redes">
+        <a href="#"><i class="fa-brands fa-github"></i></a>
+        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+      </div>
     </div>
-    
-</body>
+    <!-- menú de navegación -->
+    <nav class="navigation">
+      <ul>
+        <li class="list active">
+          <a href="#inicio">
+            <span class="icon"><i class="fa-solid fa-house"></i></span>
+            <span class="text">Inicio</span>
+          </a>
+        </li>
+        <li class="list">
+          <a href="#sobre-mi">
+            <span class="icon"><i class="fa-solid fa-user"></i></span>
+            <span class="text">Sobre mí</span>
+          </a>
+        </li>
+        <li class="list">
+          <a href="#experiencia">
+            <span class="icon"><i class="fa-solid fa-sliders"></i></span>
+            <span class="text">Experiencia</span>
+          </a>
+        </li>
+        <li class="list">
+          <a href="#portafolio">
+            <span class="icon"><i class="fa-solid fa-briefcase"></i></span>
+            <span class="text">Portafolio</span>
+          </a>
+        </li>
+        <li class="list">
+          <a href="#contacto">
+            <span class="icon"><i class="fa-solid fa-envelope"></i></span>
+            <span class="text">Contacto</span>
+          </a>
+        </li>
+        <div class="indicator"></div>
+      </ul>
+    </nav>
+
+    <script src="script.js" ></script>
+  </body>
 </html>
